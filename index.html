@@ -10,6 +10,28 @@
     <script defer src="main.js"></script>
 </head>
 <body>
-    <h1>Hello world!</h1>
+
 </body>
+
+<script>
+    
+    document.addEventListener('click', (event) => {
+
+      const sunflower = document.createElement('div');
+      sunflower.className = 'sunflower';
+      
+
+      sunflower.style.left = `${event.clientX}px`;
+      sunflower.style.top = `${event.clientY}px`;
+      
+
+      document.body.appendChild(sunflower);
+
+
+      setTimeout(() => {
+        sunflower.remove();
+      }, 3000);
+    });
+  </script>
+
 </html>
