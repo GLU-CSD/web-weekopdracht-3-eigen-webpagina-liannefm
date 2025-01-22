@@ -1,0 +1,1 @@
+alert("Klik op het gras!");
