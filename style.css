@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://i.pinimg.com/736x/97/4f/29/974f29ae761f34021c7717d21fe1cbe9.jpg');
+    background-image: url('assets/achtergrond.png');
     background-repeat: no-repeat;
     background-size: 1540px 730px;
 
@@ -12,7 +12,7 @@ body{
     position: absolute;
     width: 150px;
     height: 150px;
-    background-image: url('assets/sunflower.png'); 
+    background-image: url('assets/flower.png'); 
     background-size: cover;
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
@@ -47,11 +47,11 @@ body{
 
 #vlinder{
   position: absolute;
-  top: 220px;
-  left: 720px;
+  top: 180px;
+  left: 680px;
 
-  width:300px;
-  height:300px;
+  width:400px;
+  height:400px;
 }
 
 #wolk{
@@ -77,4 +77,30 @@ body{
 
   width:150px;
   height:150px;
+}
+
+#bloem{
+  position: absolute;
+  top: 530px;
+  left: 400px;
+
+  width:150px;
+  height:150px;
+}
+#bloem1{
+  position: absolute;
+  top: 490px;
+  left: 1200px;
+
+  width:150px;
+  height:150px;
+}
+
+#zon{
+  position: absolute;
+  top: -830px;
+  left: -420px;
+
+  width:1000px;
+  height:1800px;
 }
